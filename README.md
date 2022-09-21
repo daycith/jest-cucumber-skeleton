@@ -2,7 +2,7 @@
 Basic jest and cucumber setup
 
 ## Run aceptation tests with cucumber
-npm run test:feature
+npm run test:features
 
 ## Run units tests with jest
 npm run test:unit
