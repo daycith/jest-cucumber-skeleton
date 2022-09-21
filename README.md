@@ -1,7 +1,7 @@
 # jest-cucumber-skeleton
 Basic jest and cucumber setup
 
-# Run aceptation tests with cucumber
+## Run aceptation tests with cucumber
 npm run test:feature
 
 # Run units tests with jest
