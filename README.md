@@ -1,5 +1,5 @@
 # jest-cucumber-skeleton
-Basic jest and cucumber setup
+Basic project in typescript with jest and cucumber setup for testing code and features.
 
 ## Run aceptation tests with cucumber
 npm run test:features
