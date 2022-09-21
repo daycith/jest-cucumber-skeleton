@@ -1,0 +1,29 @@
+{
+  "name": "skeleton-jest-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc",
+    "test": "npm run test:unit && npm run test:features",
+    "test:unit": "jest",
+    "test:features": "npm run test:mooc:backend:features",
+    "test:mooc:backend:features": "NODE_ENV=test cucumber-js -p mooc_backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "@types/chai": "^4.3.3",
+    "@types/cucumber": "^7.0.0",
+    "@types/jest": "^29.0.3",
+    "chai": "^4.3.6",
+    "jest": "^29.0.3",
+    "ts-jest": "^29.0.1"
+  }
+}
